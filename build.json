@@ -1,0 +1,10 @@
+    {
+  
+    "fileType" : "trectext",
+    "indexPath" : "index/",
+    "inputPath" : ["trecText_toy.gz"],
+    "tokenizer": {
+        "class" : "org.lemurproject.galago.core.parse.TagTokenizer",
+        "fields" : ["text"]
+    }
+} 
