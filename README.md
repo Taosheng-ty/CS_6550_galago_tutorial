@@ -29,7 +29,10 @@ You can found more detail about how to build index from [here](https://sourcefor
 ## How to use galago api with java code?
 I recommend you to use some IDE to help build it. For example you can use Eclipse ([download here](https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers)) to link the library and compile. Below are the steps to use API with java code in eclipse,
 1. Open eclipse and create a new java project, click File-->New--->Java Project
-2. Add galago library, click Project--->Properties--->Java Build Path---> add External JARs. Then you need to select all jar file in galago/lib/
-3.Then you can write you own java code now. If you are not farmiliar with java, you can put the folder tutorial_1 we provide in this repos in src/ of your java project. It transform between Internal ID and External ID. It's an exmaple we borrowed from [here](https://github.com/jiepujiang/cs646_tutorials.git).
+
+2. Then you can write you own java code now. If you are not farmiliar with java, you can paste the folder tutorial_1 we provide in this repos to src/ of your java project. It transform between Internal ID and External ID. It's an exmaple we borrowed from [here](https://github.com/jiepujiang/cs646_tutorials.git).
+
+3. Select the file you want to compile in src/ and add galago library, click Project--->Properties--->Java Build Path---> add External JARs. Then you need to select all jar file in galago/lib/
+
 
 
