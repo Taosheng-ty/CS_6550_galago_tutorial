@@ -96,7 +96,7 @@ public class tutorial_1 {
 			indexLength.close();
 			
 			
-// 			iterate to find the id of the document with the minimal document length. 			
+// 			number of unique words with length less than 10			
 			Document.DocumentComponents dc = new Document.DocumentComponents( false, false, true );
 			Set<String> unique_vocab=new TreeSet<>();
 			for(long docid=stat.firstDocId;docid<=stat.lastDocId;docid++) {
