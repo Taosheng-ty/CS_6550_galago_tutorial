@@ -1,14 +1,14 @@
 # CS_6550_galago_tutorial
 This is the repo for CS_6550 galago tutorial. In this repo I provide a toy dataset "trecText_toy_.gz" for you to play with in order to be farmiliar with galago. I test the instruction below on ubuntu 18.4. If you are working on win or mac, you might need to change a little bit.
 ## First get the repo
-    git clone git@github.com:Taosheng-ty/CS_6550_galago_tutorial.git
+    git clone https://github.com/Taosheng-ty/CS_6550_galago_tutorial.git
     cd CS_6550_galago_tutorial
 You can build index with the scripts we provide,
 
     chmod +x cmd.sh
     ./cmd.sh
 Or you can build steps by steps with below instructions.
-## Then we need to download the galago, here I provide link to download the latest binary version. You may use other version or compile form the source file by yourselves.
+## Then we need to download the galago, here I provide link to download the latest binary version. You may use other version or compile form the source file by yourselves. Detailed instruction for installation, please refer https://sourceforge.net/p/lemur/wiki/Galago%20Installation/ 
     wget https://master.dl.sourceforge.net/project/lemur/lemur/galago-3.18/galago-3.18-bin.tar.gz
 Here I recommend to use JDK 8. I provide the following code to specify the JDK.  JDK 11 seems not working.
     wget https://download.java.net/openjdk/jdk8u41/ri/openjdk-8u41-b04-linux-x64-14_jan_2020.tar.gz
