@@ -1,0 +1,14 @@
+    {
+      "verbose"   : false,
+"casefold"  : true,
+      "requested" : 20,
+	  "mu":2000,
+	  "operatorWrap":"rm",
+      "index"     : "../index",
+      "fbDocs" : 25,
+      "fbTerm" : 100,
+	  "queryFormat":"tsv",
+	  "relevanceModel" : "org.lemurproject.galago.core.retrieval.prf.RelevanceModel1",
+"defaultTextPart":"postings.krovetz",
+  "queries" :"query.titles.tsv"
+    }
