@@ -63,6 +63,7 @@ There are acutually two ways to apply galago retrieval models.
                                                                                                 
 2. Another way to run retrieval models is to call Java API. The example is in tutorial_2/java_tutorial_2. You can run it just as you run examples in tutorial_1.  Besides, we choose to show more details (like term count in documents) in this example to help you understand that Galago is doing exactly as the same as slides told.
    
+When you get the retrieved ranked lists, you can evluated it to get metrics like NDCG, MAP, with galago eval. For more info, please check [here](https://sourceforge.net/p/lemur/wiki/Galago%20Evaluation/).
 
     
 
