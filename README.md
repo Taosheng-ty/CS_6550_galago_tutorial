@@ -41,5 +41,28 @@ I recommend you to use some IDE to help build it. For example you can use Eclips
 
 3. Select the file you want to compile in src/ and add galago library, click Project--->Properties--->Java Build Path---> add External JARs. Then you need to select all jar file in galago/lib/
 
+## How to apply galago retrieval models?
+There are acutually two ways to apply galago retrieval models. 
+1. The first one is to use command lines. We provide some examples in tutorial_2/retrieve_model.sh for your play with. First you need to enter the follder,
 
+        cd tutorial_2
+    Then, you run it directly,
+
+        chmod +x retrieve_model.sh
+        ./retrieve_model.sh
+
+    Or you can do it step by step,
+
+        cd tutorial_2
+         bash ../galago/bin/galago batch-search --showNoResults=true --defaultTextPart=postings.krovetz   --mu=2000 --scorer=dirichlet --verbose=false --requested=20 --index=../index/  --queryFormat=tsv  --queries=query.titles.tsv >galago_dirichelet.txt
+    This command line specifies the method as dirichlet with stemmer as krovetz. It sets ![\mu =2000](https://latex.codecogs.com/svg.latex?\mu=200)  and will retrieve 20 documents.
+    Another way to apply command line is to give parameter with json file,
+
+         bash ../galago/bin/galago batch-search rm_model.json >galago_rm.txt
+    rm_model.json gives an exmple of relevance model. Please read it.
+                                                                                                
+2. Another way to run retrieval models is to call Java API. The example is in tutorial_2/java_tutorial_2. You can run it just as you run examples in tutorial_1.  Besides, we choose to show more details (like term count in documents) in this example to help you understand that Galago is doing exactly as the same as slides told.
+   
+
+    
 
