@@ -21,6 +21,7 @@ Afer finish downloading, we unzip galago and rename it as galago
 
     tar -xzf ./galago-3.18-bin.tar.gz
     mv galago-3.18-bin galago
+    chmod +x galago/bin/galago
 
 Then, basically we can build index now. You have two choice. You can write a json file and build index. Here I give an example json file.
     
