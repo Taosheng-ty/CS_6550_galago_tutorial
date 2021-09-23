@@ -10,7 +10,8 @@ You can build index with the scripts we provide,
     chmod +x cmd.sh
     ./cmd.sh
 Or you can build steps by steps with below instructions.
-## Then we need to download the galago, here I provide link to download the latest binary version. You may use other version or compile form the source file by yourselves. Detailed instruction for installation, please refer https://sourceforge.net/p/lemur/wiki/Galago%20Installation/ 
+## Then we need to download the galago
+here I provide link to download the latest binary version. You may use other version or compile form the source file by yourselves. Detailed instruction for installation, please refer https://sourceforge.net/p/lemur/wiki/Galago%20Installation/ 
     wget https://master.dl.sourceforge.net/project/lemur/lemur/galago-3.18/galago-3.18-bin.tar.gz
 Here I recommend to use JDK 8. I provide the following code to specify the JDK.  JDK 11 seems not working.
 
