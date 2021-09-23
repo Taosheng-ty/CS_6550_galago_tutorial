@@ -1,5 +1,7 @@
 # CS_6550_galago_tutorial
-This is the repo for CS_6550 galago tutorial. In this repo I provide a toy dataset "trecText_toy_.gz" for you to play with in order to be farmiliar with galago. I test the instruction below on ubuntu 18.4. If you are working on win or mac, you might need to change a little bit.
+This is the repo for CS_6550 galago tutorial. In this repo I provide a toy dataset "trecText_toy_.gz" for you to play with in order to be farmiliar with galago. I test the instruction below on ubuntu 18.4. If you are working on win or mac, you might need to change a little bit. 
+## Video tutorial
+Video recording for 2020 fall can be found https://www.youtube.com/playlist?list=PL53I9pG-wbQxWBFDGJkNwPCvuS-Iv6lkJ
 ## First get the repo
     git clone https://github.com/Taosheng-ty/CS_6550_galago_tutorial.git
     cd CS_6550_galago_tutorial
